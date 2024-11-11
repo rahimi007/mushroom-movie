@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>mushroom movie</title>
+    <!-- <base href="https://unpkg.com" /> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+
+  </head>
+  <body>
+    <div class="border">
+      <div class="bsearch">
+        <div class="search-container">
+          <!-- <div class="logo1"></div> -->
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search for a movie or TV show"
+            class="ooo"
+          />
+          <button id="search-button">Search</button>
+        </div>
+        <div id="loading" class="loading-circle"></div>
+      </div>
+      <div id="results"></div>
+    </div>
+
+    <div id="suggestions" class="suggestions-container"></div>
+
+    <p class="p">version : 2.0.0 <h>------------</h> created by H.Rahimi</p>
+
+    <footer
+      style="
+        background-image: linear-gradient(
+          -90deg,
+          rgb(3, 8, 29),
+          #000000fd
+        ) !important;
+        padding: 10px;
+        bottom: 0;
+        position: relative;
+        width: 100%;
+      "
+    ></footer>
+  </body>
+<script src="script.js"></script>
+
+</html>
